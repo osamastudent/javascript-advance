@@ -1,0 +1,38 @@
+.navbar{
+  background-color: black;
+}
+.navbar a{
+color: white !important;
+}
+.nav-link:hover {
+  text-decoration: underline ;
+  text-decoration-color: white; /* Dark color, you can change it to your desired color */
+  text-decoration-thickness: 3px; /* Increase thickness as needed */
+  text-underline-offset: 0.2em; /* Adjust the offset as needed */
+  transition: all 0.5s ease; 
+  color: white;
+  
+}
+
+
+.active {
+  text-decoration: underline;
+  transition: all 0.9s ease; 
+  color: white !important;
+  border-radius: 100px;
+  border: solid green 2px;
+  box-shadow: 0px 2px 2px 2px #9ea1a5;  
+  text-decoration-color: white; /* Dark color, you can change it to your desired color */
+  text-decoration-thickness: 3px; /* Increase thickness as needed */
+  text-underline-offset: 0.2em; /* Adjust the offset as needed */
+}
+
+.btn{
+  width: 100%;
+  background-color: yellow;
+}
+
+
+.main{
+  display: none;
+}
